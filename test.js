@@ -6,7 +6,7 @@ let sinon = require('sinon'),
 
     should = chai.should(),
 
-    Core = require("./core.js"),
+    Core = require("./src/core.js"),
 
     modules;
 
