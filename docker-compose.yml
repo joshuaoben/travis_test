@@ -1,0 +1,15 @@
+
+#      - /c/Users/internship:/opt/app
+version: '2'
+
+services:
+  lj_node:
+    build:
+      context: .
+      dockerfile: holla.Dockerfile
+    image: lj_node
+    ports:
+      - '2000:2000'
+      - '3000:3000'
+    volumes:
+      - ./:/opt/app
