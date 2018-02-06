@@ -2,7 +2,7 @@ let sinon = require('sinon'),
 	chai = require('chai'),
 	expect = chai.expect,
 	should = chai.should(),
-	Greeting =  require("./app.js");
+	Greeting =  require("../src/app.js");
 
 describe("Greeting App", function(){
 	xit("should test if greetings exist", function(){
